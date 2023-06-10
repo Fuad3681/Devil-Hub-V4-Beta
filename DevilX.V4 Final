@@ -1,9 +1,7 @@
 
- 
 
 local kavoUi = loadstring(game:HttpGet("https://pastebin.com/raw/wAuqhZ3X"))()
-local window = kavoUi.CreateLib("Devil X
-V4 ","DarkTheme")
+local window = kavoUi.CreateLib("Devil X ","DarkTheme")
 
 ---Tabs
 
@@ -1726,10 +1724,9 @@ end)
 
 ---=== Getting instances ===----
 
- local title2 = game:GetService("CoreGui").HubDestroyer.Main.MainHeader.title2
+local title2 = game:GetService("CoreGui").HubDestroyer.Main.MainHeader.title2
 
 ----=== Change if u want ===----
 
    title2.Text = "Developed by DXP Team and Shoe V4"
-
-      kavoUi:BGLoader(13711100738) --- This is the id from the background  
+      kavoUi:BGLoader(13698057108) --- This is the id from the background  
