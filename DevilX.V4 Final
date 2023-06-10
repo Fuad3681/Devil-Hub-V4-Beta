@@ -1724,9 +1724,10 @@ end)
 
 ---=== Getting instances ===----
 
-local title2 = game:GetService("CoreGui").HubDestroyer.Main.MainHeader.title2
+ local title2 = game:GetService("CoreGui").HubDestroyer.Main.MainHeader.title2
 
 ----=== Change if u want ===----
 
-   title2:Destroy() --- Just ignore
+   title2.Text = "Developed by DXP Team and shoe"
+
       kavoUi:BGLoader(13698057108) --- This is the id from the background  
