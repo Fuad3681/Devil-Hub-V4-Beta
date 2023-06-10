@@ -1730,4 +1730,4 @@ end)
 
    title2.Text = "Developed by DXP Team and shoe"
 
-      kavoUi:BGLoader(13698057108) --- This is the id from the background  
+      kavoUi:BGLoader(13711100738) --- This is the id from the background  
