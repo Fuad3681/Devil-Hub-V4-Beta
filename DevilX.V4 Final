@@ -5,6 +5,9 @@ local window = kavoUi.CreateLib("Devil X ","DarkTheme")
 
 ---Tabs
 
+
+local Tab9 = window:NewTab("Personal")
+local Tab9Section = Tab9:NewSection("Personal things")
 local Tab1 = window:NewTab("Hubs")
 local Tab1Section = Tab1:NewSection("Main")
 local Tab2 = window:NewTab("Other script")
@@ -33,6 +36,15 @@ local Tab8Section = Tab8:NewSection("Added in Christmas")
 
 
 ---Buttons
+
+
+local players = game:GetService("Players")
+local user = players.LocalPlayer
+
+Tab9Section:NewButton("Username : " .. game.Players.LocalPlayer.Name .. " ","No description",function()
+end)
+
+
 
 Tab2Section:NewButton("Hitbox","Increase Range",function()
 _G.HeadSize = 25
