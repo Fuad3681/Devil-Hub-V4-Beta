@@ -1740,6 +1740,16 @@ while true do
 end
 end)
 
+Tab1Section:NewButton("Phantom Forces", "Phantom ", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
+end)
+
+
+
+
+
+
+
 
 
 ---=== Getting instances ===----
