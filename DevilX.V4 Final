@@ -1761,6 +1761,10 @@ Tab1Section:NewButton("Astral Hub", "Phantom ", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/AstralHub/main/Main.lua", true))()
 end)
 
+Tab1Section:NewButton("Pls donate", "auto farm ", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/autofarm"))()
+end)
+
 
 
 ---=== Getting instances ===----
