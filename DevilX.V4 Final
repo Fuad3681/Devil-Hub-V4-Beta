@@ -1759,12 +1759,9 @@ Tab1Section:NewButton("Phantom Forces", "Phantom ", function()
 end)
 
 Tab1Section:NewButton("Astral Hub", "Its a hub ig", function()
-    https://raw.githubusercontent.com/Vcsk/AstralHub/main/Main.lua
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/AstralHub/main/Main.lua", true))()
 end)
 
-Tab1Section:NewButton("Vape V4", "idk", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
-end)
 
 
 
