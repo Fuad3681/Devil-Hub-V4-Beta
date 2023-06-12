@@ -1,7 +1,6 @@
 loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/littlegui/main/FPS-Counter'))()
 
 
-
 local kavoUi = loadstring(game:HttpGet("https://pastebin.com/raw/wAuqhZ3X"))()
 local window = kavoUi.CreateLib("Devil X ","DarkTheme")
 
@@ -1757,19 +1756,6 @@ end)
 Tab1Section:NewButton("Phantom Forces", "Phantom ", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
 end)
-
-Tab1Section:NewButton("Astral Hub", "Its a hub ig", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/AstralHub/main/Main.lua", true))()
-end)
-
-
-
-
-
-
-
-
-
 
 
 
