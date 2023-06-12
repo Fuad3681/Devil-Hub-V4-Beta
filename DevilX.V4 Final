@@ -1757,6 +1757,10 @@ Tab1Section:NewButton("Phantom Forces", "Phantom ", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
 end)
 
+Tab1Section:NewButton("Astral Hub", "Phantom ", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/AstralHub/main/Main.lua", true))()
+end)
+
 
 
 ---=== Getting instances ===----
