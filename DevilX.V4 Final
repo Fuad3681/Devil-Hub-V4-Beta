@@ -11,6 +11,8 @@ local Tab9 = window:NewTab("Personal")
 local Tab9Section = Tab9:NewSection("Personal things")
 local Tab1 = window:NewTab("Hubs")
 local Tab1Section = Tab1:NewSection("Main")
+local Tab1 = window:NewTab("Hubs")
+local Tab3Section = Tab3:NewSection("jvrcruz#9977")
 local Tab2 = window:NewTab("Other script")
 local Tab2Section = Tab2:NewSection("others")
 local Tab3 = window:NewTab("Credits")
@@ -1765,6 +1767,13 @@ end)
 Tab1Section:NewButton("Pls donate", "auto farm ", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/autofarm"))()
 end)
+
+local player = game.Players.LocalPlayer
+local accountAgeInDays = player.AccountAge
+Tab9Section:NewButton("Account age ", "account age "..accountAgeInDays, function()
+
+end)
+
 
 
 
