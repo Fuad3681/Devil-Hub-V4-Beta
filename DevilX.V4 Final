@@ -1766,11 +1766,6 @@ Tab1Section:NewButton("Pls donate", "auto farm ", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/autofarm"))()
 end)
 
-local player = game.Players.LocalPlayer
-local accountAgeInDays = player.AccountAge
-Tab9Section:NewButton("Account age ", "account age "..accountAgeInDays, function()
-
-end)
 
 
 
