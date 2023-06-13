@@ -47,6 +47,14 @@ Tab9Section:NewButton("Username : " .. game.Players.LocalPlayer.Name .. " ","No 
 end)
 
 
+local players = game:GetService("Players") 
+local user = players.LocalPlayer 
+  
+ Tab9Section:NewButton("Username : " .. game.Players.LocalPlayer.AccountAge .. " ","No description",function() 
+end)
+
+
+
 
 Tab2Section:NewButton("Hitbox","Increase Range",function()
 _G.HeadSize = 25
